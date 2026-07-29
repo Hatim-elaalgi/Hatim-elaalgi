@@ -72,34 +72,56 @@ federated model has to be the neural one at the edge.
 
 ## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="26"> &nbsp;Featured repositories
 
-<p align="center">
-  <a href="https://github.com/Hatim-elaalgi/fraud-detection-vae">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=fraud-detection-vae&hide_border=true&bg_color=0D1117&title_color=E07B39&text_color=C9D1D9&icon_color=E07B39">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=fraud-detection-vae&hide_border=true&title_color=E07B39&icon_color=E07B39" alt="fraud-detection-vae">
-    </picture>
-  </a>
-  <a href="https://github.com/Hatim-elaalgi/parkinsons-vcm-reproduction">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=parkinsons-vcm-reproduction&hide_border=true&bg_color=0D1117&title_color=E07B39&text_color=C9D1D9&icon_color=E07B39">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=parkinsons-vcm-reproduction&hide_border=true&title_color=E07B39&icon_color=E07B39" alt="parkinsons-vcm-reproduction">
-    </picture>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Hatim-elaalgi/ResearchWatchElasticsearch">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=ResearchWatchElasticsearch&hide_border=true&bg_color=0D1117&title_color=E07B39&text_color=C9D1D9&icon_color=E07B39">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=ResearchWatchElasticsearch&hide_border=true&title_color=E07B39&icon_color=E07B39" alt="ResearchWatchElasticsearch">
-    </picture>
-  </a>
-  <a href="https://github.com/Hatim-elaalgi/TecHorizon">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=TecHorizon&hide_border=true&bg_color=0D1117&title_color=E07B39&text_color=C9D1D9&icon_color=E07B39">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hatim-elaalgi&repo=TecHorizon&hide_border=true&title_color=E07B39&icon_color=E07B39" alt="TecHorizon">
-    </picture>
-  </a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 💳 [fraud-detection-vae](https://github.com/Hatim-elaalgi/fraud-detection-vae)
+
+Unsupervised bank-fraud detection — VAE, Isolation Forest and LSTM-AE compared at a 0.12% base rate,
+with no labels at training time.
+
+<a href="https://github.com/Hatim-elaalgi/fraud-detection-vae"><img src="https://img.shields.io/github/languages/top/Hatim-elaalgi/fraud-detection-vae?style=flat-square&color=E07B39&labelColor=1A1A1A" alt=""></a>
+<a href="https://github.com/Hatim-elaalgi/fraud-detection-vae"><img src="https://img.shields.io/github/last-commit/Hatim-elaalgi/fraud-detection-vae?style=flat-square&color=555&labelColor=1A1A1A" alt=""></a>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔬 [parkinsons-vcm-reproduction](https://github.com/Hatim-elaalgi/parkinsons-vcm-reproduction)
+
+Reproduction **and** reproducibility audit of a published paper — implemented twice, once in
+scikit-learn and once from scratch in NumPy.
+
+<a href="https://github.com/Hatim-elaalgi/parkinsons-vcm-reproduction"><img src="https://img.shields.io/github/languages/top/Hatim-elaalgi/parkinsons-vcm-reproduction?style=flat-square&color=E07B39&labelColor=1A1A1A" alt=""></a>
+<a href="https://github.com/Hatim-elaalgi/parkinsons-vcm-reproduction"><img src="https://img.shields.io/github/last-commit/Hatim-elaalgi/parkinsons-vcm-reproduction?style=flat-square&color=555&labelColor=1A1A1A" alt=""></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔎 [ResearchWatch](https://github.com/Hatim-elaalgi/ResearchWatchElasticsearch)
+
+Scientific search engine over arXiv — bilingual FR/EN custom analyzer, relevance evaluation
+(precision@k, MRR), FastAPI service and a Kibana dashboard.
+
+<a href="https://github.com/Hatim-elaalgi/ResearchWatchElasticsearch"><img src="https://img.shields.io/github/languages/top/Hatim-elaalgi/ResearchWatchElasticsearch?style=flat-square&color=E07B39&labelColor=1A1A1A" alt=""></a>
+<a href="https://github.com/Hatim-elaalgi/ResearchWatchElasticsearch"><img src="https://img.shields.io/github/last-commit/Hatim-elaalgi/ResearchWatchElasticsearch?style=flat-square&color=555&labelColor=1A1A1A" alt=""></a>
+
+</td>
+<td width="50%" valign="top">
+
+#### 📰 [TecHorizon](https://github.com/Hatim-elaalgi/TecHorizon)
+
+Collaborative online magazine — a four-level role hierarchy and a full editorial review workflow,
+built on Laravel 11.
+
+<a href="https://github.com/Hatim-elaalgi/TecHorizon"><img src="https://img.shields.io/github/languages/top/Hatim-elaalgi/TecHorizon?style=flat-square&color=E07B39&labelColor=1A1A1A" alt=""></a>
+<a href="https://github.com/Hatim-elaalgi/TecHorizon"><img src="https://img.shields.io/github/last-commit/Hatim-elaalgi/TecHorizon?style=flat-square&color=555&labelColor=1A1A1A" alt=""></a>
+
+</td>
+</tr>
+</table>
 
 ### 💳 Unsupervised fraud detection — VAE · Isolation Forest · LSTM-AE
 
@@ -228,17 +250,6 @@ Sales, Stock and Accounting modules in Python and XML, REST API integrations, Po
 </div>
 
 ---
-
-## <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="26"> &nbsp;Languages I ship in
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Hatim-elaalgi&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=E07B39&text_color=C9D1D9">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hatim-elaalgi&layout=compact&langs_count=8&hide_border=true&title_color=E07B39" alt="Top languages">
-  </picture>
-</p>
-
-<p align="center"><sub>Public repositories only — most of my recent work sits in private repositories.</sub></p>
 
 ---
 
