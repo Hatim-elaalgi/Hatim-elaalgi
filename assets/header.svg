@@ -20,6 +20,6 @@
     <text x="64" y="86" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="0.4">Hatim EL AALGI</text>
     <rect x="66" y="102" width="58" height="3" rx="1.5" fill="url(#rule)"/>
     <text x="64" y="134" font-size="18" font-weight="600" fill="#FFE3D0" letter-spacing="0.3">Machine Learning &amp; Data Engineering</text>
-    <text x="64" y="160" font-size="14" font-weight="400" fill="#F3C7A8" letter-spacing="0.2">Generative AI  ·  Anomaly Detection  ·  Real-Time Data Systems  ·  MLOps-minded evaluation</text>
+    <text x="64" y="160" font-size="14" font-weight="400" fill="#F3C7A8" letter-spacing="0.2">Generative AI  ·  Anomaly Detection  ·  AI for Cybersecurity  ·  Real-Time Data Systems</text>
   </g>
 </svg>

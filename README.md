@@ -1,7 +1,7 @@
-<img width="100%" src="./assets/header.svg" alt="Hatim EL AALGI — Machine Learning & Data Engineering · Generative AI · Anomaly Detection · Real-Time Data Systems" />
+<img width="100%" src="./assets/header.svg" alt="Hatim EL AALGI — Machine Learning & Data Engineering · Generative AI · Anomaly Detection · AI for Cybersecurity · Real-Time Data Systems" />
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=E07B39&center=true&vCenter=true&width=760&lines=Multimodal+GenAI+%E2%80%94+vision%2C+voice+and+RAG+in+one+app;Natural+language+to+SQL+over+national+statistics;Anomaly+detection+that+survives+a+0.12%25+base+rate;Real-time+pipelines+at+%3E1%2C000+events%2Fsecond;Reproducing+papers+%E2%80%94+and+auditing+what+they+claim" alt="Focus areas" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=E07B39&center=true&vCenter=true&width=760&lines=Multimodal+GenAI+%E2%80%94+vision%2C+voice+and+RAG+in+one+app;Natural+language+to+SQL+over+national+statistics;Anomaly+detection+that+survives+a+0.12%25+base+rate;Trust+boundaries+enforced+in+code%2C+not+config;Real-time+pipelines+at+%3E1%2C000+events%2Fsecond;Reproducing+papers+%E2%80%94+and+auditing+what+they+claim" alt="Focus areas" /></a>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/%F0%9F%8E%AF%20Seeking%20PFE%20internship-February%20%E2%80%93%20June%202027-E07B39?style=flat-square&labelColor=1A1A1A" alt="Seeking PFE internship, February to June 2027">
   <br>
-  <sub>Machine Learning · Generative AI · Data Engineering — Casablanca / Rabat</sub>
+  <sub>Machine Learning · Generative AI · AI for Cybersecurity · Data Engineering — Casablanca / Rabat</sub>
 </p>
 
 ---
