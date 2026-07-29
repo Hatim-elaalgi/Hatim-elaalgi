@@ -124,7 +124,7 @@ embedding**, plus a correction feedback loop.
 | [**TecHorizon**](https://github.com/Hatim-elaalgi/TecHorizon) | Collaborative online magazine — four-level role hierarchy, editorial review workflow | Laravel 11 · PHP |
 | [**Advanced_DASHBORD**](https://github.com/Hatim-elaalgi/Advanced_DASHBORD) | Desktop choropleth of Moroccan regions + chart builder (synthetic dataset) | PySide6 · GeoPandas · Folium |
 | [**Petit Bac multi-agent**](https://github.com/Hatim-elaalgi/jeux_bac) | JADE agents over ACL; BFS, DFS, UCS and A\* on a trie with an admissible heuristic | Java · JADE |
-| [**Deep FFN study**](https://github.com/Hatim-elaalgi/TP2-deeplearning) | Regularisation ablation + grid vs random search — random search won at equal budget | PyTorch |
+| [**Deep FFN study**](https://github.com/Hatim-elaalgi/Deep-ffn-study) | Regularisation ablation + grid vs random search — random search won at equal budget | PyTorch |
 | [**ETL & dashboard**](https://github.com/Hatim-elaalgi/preProcessingETL_NIFI) | CSV → PostgreSQL star schema, analytical SQL, Streamlit dashboard | NiFi · PostgreSQL |
 | [**Segmentation from scratch**](https://github.com/Hatim-elaalgi/customer-segmentation-compare) | KNN + multinomial softmax in NumPy, benchmarked against scikit-learn | NumPy · scikit-learn |
 
