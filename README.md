@@ -72,7 +72,7 @@ and the reason the architecture is built around local inference and concurrency.
 </td></tr>
 <tr><td>
 
-### 🌐 NIDS-FL — Privacy-Preserving Distributed Learning
+### 🌐 [NIDS-FL — Privacy-Preserving Distributed Learning](https://github.com/Hatim-elaalgi/NIDS)
 
 **Federated learning applied to network traffic: models travel, data never does.**
 
@@ -90,7 +90,9 @@ federated model has to be the neural one at the edge.
 
 `Kafka (KRaft)` `FastAPI` `Docker` `Neo4j` `TensorFlow` `XGBoost` `Optuna` `React`
 
-<sub>🔒 Private repository — walkthrough available on request</sub>
+<a href="https://github.com/Hatim-elaalgi/NIDS"><img src="https://img.shields.io/badge/GitHub-NIDS-181717?style=flat-square&logo=github&labelColor=1A1A1A" alt=""></a>
+<a href="https://github.com/Hatim-elaalgi/NIDS"><img src="https://img.shields.io/github/languages/top/Hatim-elaalgi/NIDS?style=flat-square&color=E07B39&labelColor=1A1A1A" alt=""></a>
+<a href="https://github.com/Hatim-elaalgi/NIDS"><img src="https://img.shields.io/github/last-commit/Hatim-elaalgi/NIDS?style=flat-square&color=555&labelColor=1A1A1A" alt=""></a>
 
 </td></tr>
 </table>
