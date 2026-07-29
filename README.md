@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,12,2&height=180&section=header&text=Hatim%20EL%20AALGI&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Machine%20Learning%20%26%20Data%20Engineering%20%C2%B7%20AI%20for%20Cybersecurity&descSize=17&descAlignY=57&animation=fadeIn" alt="Hatim EL AALGI — Machine Learning & Data Engineering · AI " />
+<img width="100%" src="./assets/header.svg" alt="Hatim EL AALGI — Machine Learning & Data Engineering · AI for Cybersecurity" />
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=E07B39&center=true&vCenter=true&width=720&lines=Real-time+ML+pipelines+at+%3E1%2C000+packets%2Fsecond;Federated+learning+%E2%80%94+65+KB%2Fround%2C+not+1.2+GB;Evaluation+that+survives+a+0.12%25+base+rate;Trust+boundaries+enforced+in+code%2C+not+config" alt="Focus areas" /></a>
@@ -279,5 +279,5 @@ FST Tanger, Université Abdelmalek Essaâdi · 2022–2025
   <a href="https://linkedin.com/in/hatim-elaalgi">LinkedIn</a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,12,2&height=110&section=footer" alt="" />
+<img width="100%" src="./assets/footer.svg" alt="" />
 
