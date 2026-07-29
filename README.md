@@ -13,7 +13,7 @@
 
 <p align="center">
   <b>🎯 Seeking a final-year (PFE) internship — February to June 2027</b><br/>
-  <sub>AI for cybersecurity · Machine Learning · Data Engineering — Casablanca / Rabat / remote</sub>
+  <sub>AI for cybersecurity · Machine Learning · Data Engineering — Casablanca / Rabat / </sub>
 </p>
 
 ---
