@@ -280,3 +280,5 @@ FST Tanger, Université Abdelmalek Essaâdi · 2022–2025
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,12,2&height=110&section=footer" alt="" />
+
+<!-- profile README -->
