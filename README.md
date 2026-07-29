@@ -1,7 +1,7 @@
-<img width="100%" src="./assets/header.svg" alt="Hatim EL AALGI — Machine Learning & Data Engineering · AI for Cybersecurity" />
+<img width="100%" src="./assets/header.svg" alt="Hatim EL AALGI — Machine Learning & Data Engineering · Generative AI · Anomaly Detection · Real-Time Data Systems" />
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=E07B39&center=true&vCenter=true&width=720&lines=Real-time+ML+pipelines+at+%3E1%2C000+packets%2Fsecond;Federated+learning+%E2%80%94+65+KB%2Fround%2C+not+1.2+GB;Evaluation+that+survives+a+0.12%25+base+rate;Trust+boundaries+enforced+in+code%2C+not+config" alt="Focus areas" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=E07B39&center=true&vCenter=true&width=760&lines=Multimodal+GenAI+%E2%80%94+vision%2C+voice+and+RAG+in+one+app;Natural+language+to+SQL+over+national+statistics;Anomaly+detection+that+survives+a+0.12%25+base+rate;Real-time+pipelines+at+%3E1%2C000+events%2Fsecond;Reproducing+papers+%E2%80%94+and+auditing+what+they+claim" alt="Focus areas" /></a>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/%F0%9F%8E%AF%20Seeking%20PFE%20internship-February%20%E2%80%93%20June%202027-E07B39?style=flat-square&labelColor=1A1A1A" alt="Seeking PFE internship, February to June 2027">
   <br>
-  <sub>AI for cybersecurity · Machine Learning · Data Engineering — Casablanca / Rabat</sub>
+  <sub>Machine Learning · Generative AI · Data Engineering — Casablanca / Rabat</sub>
 </p>
 
 ---
@@ -27,8 +27,13 @@ The evaluation is where I spend most of my effort, because it is where projects 
 metrics chosen for class imbalance instead of accuracy, thresholds calibrated on business cost
 rather than F1, data leakage hunted down and quantified, and guardrails against model hallucination.
 
-Since **April 2026** I have been building an **AI-assisted SOC investigation copilot** at
-**Synertic**, an ESN specialising in secure software.
+That approach travels across domains — my work spans **generative AI and LLM systems**,
+**anomaly detection**, **real-time data engineering**, **information retrieval**, and
+**research reproducibility**, applied to public statistics, finance, healthcare research, tourism
+and network security.
+
+Currently building an AI-assisted investigation copilot at **Synertic**, an ESN specialising in
+secure software.
 
 <br>
 
@@ -40,23 +45,45 @@ Since **April 2026** I have been building an **AI-assisted SOC investigation cop
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="26"> &nbsp;Flagship project
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="26"> &nbsp;Flagship work
 
 <table>
 <tr><td>
 
-### 🛡️ NIDS-FL — Federated-Learning Intrusion Detection
+### 🧭 Ibn Battuta — Multimodal AI Travel Guide
 
-**Real-time intrusion detection where raw traffic never leaves the site that captured it.**
+**A generative-AI application that takes text, voice *and* photos, and answers as an animated guide.**
 
 | | |
 |---|---|
-| **Throughput** | >1,000 packets/sec — capture → FastAPI WebSocket → Kafka |
-| **Federated** | FedAvg across 3 clients — **65 KB of weights per round** vs centralising **1.2 GB** of raw traffic |
-| **Two-stage** | Edge MLP (99.38%, F1 **0.9889**) escalates only uncertain traffic to cloud XGBoost (99.44%, 7 classes) |
+| **Multimodal input** | Text, speech, and photographs interpreted by a **locally-hosted vision-language model** |
+| **Presentation** | Animated **3D avatar with lip-sync**, driven by the generated response |
+| **Retrieval** | **RAG over ChromaDB** for grounded answers about places and history |
+| **Aggregation** | **8 public APIs queried concurrently** and merged into one itinerary |
+| **Generation** | **3-pass itinerary construction**, streamed to the browser over **SSE** |
+
+Everything runs against a self-hosted model rather than a paid API — the interesting constraint,
+and the reason the architecture is built around local inference and concurrency.
+
+`React` `Three.js` `FastAPI` `ChromaDB` `Sentence-Transformers` `SSE`
+
+<sub>🔒 Private — demo available on request</sub>
+
+</td></tr>
+<tr><td>
+
+### 🌐 NIDS-FL — Privacy-Preserving Distributed Learning
+
+**Federated learning applied to network traffic: models travel, data never does.**
+
+| | |
+|---|---|
+| **Throughput** | >1,000 events/sec — capture → FastAPI WebSocket → Kafka |
+| **Federated** | FedAvg across 3 clients — **65 KB of weights per round** vs centralising **1.2 GB** of raw data |
+| **Two-stage** | Edge MLP (99.38%, F1 **0.9889**) escalates only uncertain cases to cloud XGBoost (99.44%, 7 classes) |
 | **Efficiency** | **83% of traffic never leaves the edge** |
 | **Drift** | Replay-buffer continual learning: **−2%** macro-F1 over 8 simulated weeks, against **−16%** static |
-| **Honest limits** | macro-F1 0.862 — held down by F1 0.28 on the two ultra-minority attack classes |
+| **Honest limits** | macro-F1 0.862 — held down by F1 0.28 on the two rarest classes |
 
 The two-stage split exists for a reason: tree ensembles cannot be aggregated by FedAvg, so the
 federated model has to be the neural one at the edge.
@@ -168,6 +195,23 @@ A faithful reproduction of Mall et al. (2022), then a critical audit. The pipeli
 
 <br>
 
+#### Generative AI &amp; LLM systems
+
+**Chatbot ATLAS** · *Haut-Commissariat au Plan — Morocco's national statistics institute*
+Conversational analytics over national statistical databases: a **natural-language → SQL** engine on
+PostgreSQL behind a secured Flask REST API, with interactive KPI dashboards and indicator alerting.
+The model is given the live schema and a geographic hierarchy, so it writes queries against real
+tables rather than guessed ones.
+`Python` `Flask` `PostgreSQL` `Google Gemini`
+
+**HCP RAG assistant** · *Retrieval-based counterpart to ATLAS*
+Same questions, opposite method — FAISS vector search over uploaded documents, with **statistical
+rows rendered into natural-language sentences before embedding** so semantic search works on tabular
+data. Feedback loop: user corrections are retrieved as context for later questions.
+`FAISS` `Sentence-Transformers` `Flask` `React`
+
+#### Applied ML &amp; security
+
 **SOC Copilot** · *Synertic · Apr 2026 – present*
 AI-assisted investigation of compromise incidents on Linux hosts — event correlation, MITRE ATT&CK
 mapping, prioritised remediation. A **dual-model trust boundary enforced in code**: the local model
@@ -176,16 +220,12 @@ bypassed by configuration. **No autonomous execution** — every remediation ste
 human approval, a deny-by-default allowlist, and synchronous audit logging.
 `Node.js` `local & cloud LLM agents` `SSH` `OIDC/SSO` `nginx` `OCI`
 
-**Ibn Battuta** · *Multimodal AI tourist guide*
-Animated 3D avatar with lip sync, accepting text, voice and photo input through a locally-hosted
-vision-language model. RAG over ChromaDB, concurrent aggregation of 8 public APIs, and 3-pass
-itinerary generation streamed over SSE.
-`React` `Three.js` `FastAPI` `ChromaDB`
+#### Data, visualisation &amp; enterprise
 
-**Chatbot ATLAS** · *Haut-Commissariat au Plan — Morocco's national statistics institute*
-Conversational analytics over national statistical databases: a **natural-language → SQL** engine on
-PostgreSQL behind a secured Flask REST API, with interactive KPI dashboards and indicator alerting.
-`Python` `Flask` `PostgreSQL` `Google Gemini`
+**Geospatial analytics dashboard** · *Desktop application*
+Interactive choropleth of Moroccan regions over a survey dataset, with a chart builder for
+conditional distributions across eight categorical dimensions.
+`PySide6` `GeoPandas` `Folium` `matplotlib`
 
 **Odoo ERP development** · *Dynamic Horizon · Jul – Nov 2025*
 Sales, Stock and Accounting modules in Python and XML, REST API integrations, PostgreSQL migrations.
